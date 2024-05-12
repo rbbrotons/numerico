@@ -1,0 +1,57 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+
+
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+
+input[type="text"] {
+    width: 200px; /* ajusta el ancho según sea necesario */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+input[type="text"][disabled] {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    input[type="text"] {
+        width: 30px; /* ajusta el ancho según sea necesario */
+    }
+    h1 {
+        font-size: 18px; /* ajusta el tamaño de fuente según sea necesario */
+    }
+    h2 {
+        font-size: 16px; /* ajusta el tamaño de fuente según sea necesario */
+    }
+    h3 {
+        font-size: 14px; /* ajusta el tamaño de fuente según sea necesario */
+    }
+    input {
+        width: 30px; /* ajusta el ancho según sea necesario */
+    }
+}

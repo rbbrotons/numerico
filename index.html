@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCIO BROTONS</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="back.js" defer></script>
+</head>
+<body>
+    <h1>SEGUNDO PARCIAL ANALISIS NUMERICO</h1>
+    <h3>Rocio Belen Brotons Fuentes 44.564.691</h3>
+
+    
+    
+    <h2>elija una opcion</h2>
+
+
+    <button  onclick="muestra3()">3 barcazas</button>
+    <button onclick="muestra5()"> 5 barcazas</button>
+
+
+    <div style="display: none" id="barcazas3">
+    <h2>resolución:</h2>
+    <h3><input type="text" id="bar1_11">A1+<input type="text" id="bar1_12">A2+<input type="text" id="bar1_13">A3=<input type="text" id="ind1_1"></h3>
+    <h3><input type="text" id="bar1_21">B1+<input type="text" id="bar1_22">B2+<input type="text" id="bar1_23">B3=<input type="text" id="ind1_2"></h3>
+    <h3><input type="text" id="bar1_31">C1+<input type="text" id="bar1_32">C2+<input type="text" id="bar1_33">C3=<input type="text" id="ind1_3"></h3>
+    
+    <button id="botoncalc3" onclick="get_valores3()">calcular</button>
+    <h2  id="h2res" >RESULTADO CON METODO DE GAUSS JORDAN:  </h2>
+    <h2 id="barcazax"></h2>
+    <h2 id="barcazay"></h2>
+    <h2 id="barcazaz"></h2>
+    
+    </div>
+
+
+
+    <div style="display: none" id="barcazas5">
+        <h2>resolución:</h2>
+        <h3><input type="text" id="bar2_11">A1+<input type="text" id="bar2_12">A2+<input type="text" id="bar2_13">A3+<input type="text" id="bar2_14"> A4+<input type="text" id="bar2_15">A5=<input type="text" id="ind2_1"></h3>
+        <h3><input type="text" id="bar2_21">B1+<input type="text" id="bar2_22">B2+<input type="text" id="bar2_23">B3+<input type="text" id="bar2_24"> B4+<input type="text" id="bar2_25">B5=<input type="text" id="ind2_2"></h3>
+        <h3><input type="text" id="bar2_31">C1+<input type="text" id="bar2_32">C2+<input type="text" id="bar2_33">C3+<input type="text" id="bar2_34"> C4+<input type="text" id="bar2_35">C5=<input type="text" id="ind2_3"></h3>
+        <button id="botoncalc5" onclick="get_valores5()">calcular</button>
+        <h2  id="h2res2" >RESULTADO CON METODO DE GAUSS JORDAN:  </h2>
+        <h2 id="barcazax2"></h2>
+        <h2 id="barcazay2"></h2>
+        <h2 id="barcazaz2"></h2>
+        
+        
+    </div>
+    
+</body>
+</html>
