@@ -16,6 +16,7 @@ function gaussJordan(A, B) {
 
         
         
+        
         // Intercambiar filas si es necesario
         if (pivot != i) {
             [AB[i], AB[pivot]] = [AB[pivot], AB[i]];
