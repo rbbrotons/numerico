@@ -120,6 +120,7 @@ function get_valores5(){
     resx.textContent="barcaza Angeka:"+parseInt(resultado[0])+" viajes"
     resy.textContent="barcaza María:"+parseInt(resultado[1])+" viajes"
     resz.textContent="barcaza Hanahui:"+parseInt(resultado[2])+" viajes"    
+    window.alert("Atencion: No tenemos certeza de la rentabilidad de invertir en la compra de dos barcazas mas, ya que al existir infinitas combinaciones puede que sea necesario un mayor gasto en combustible. Se recomienda invertir solamente en las primeras 3 barcazas")
 
 }
 
