@@ -13,8 +13,7 @@ function gaussJordan(A, B) {
                 pivot = j;
             }
         }
- 
-        
+
         
         
         // Intercambiar filas si es necesario
